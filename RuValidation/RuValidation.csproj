@@ -19,6 +19,7 @@
 	  <Version>0.1.0</Version>
 	  <IncludeSymbols>True</IncludeSymbols>
 	  <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+	  <PackageTags>validation;attribute;asp;asp.net;blazor;ru;russia;snils;ogrn;inn;kpp;СНИЛС;ИНН;ОГРН;КПП</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
