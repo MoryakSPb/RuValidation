@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RuValidation", "RuValidation\RuValidation.csproj", "{EF4ECF41-547C-490E-86E9-B3D89A2C7177}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RuValidation.Tests", "RuValidation.Tests\RuValidation.Tests.csproj", "{215B09CC-EEA2-4F2E-85C0-70F897C1DABC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RuValidation.Benchmark", "RuValidation.Benchmark\RuValidation.Benchmark.csproj", "{90B6A506-A788-4C71-9642-F378FEADE11D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RuValidation.Example", "RuValidation.Example\RuValidation.Example.csproj", "{005FE2D9-12C8-4CFE-B03B-A4F055244BD0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF4ECF41-547C-490E-86E9-B3D89A2C7177}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF4ECF41-547C-490E-86E9-B3D89A2C7177}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF4ECF41-547C-490E-86E9-B3D89A2C7177}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF4ECF41-547C-490E-86E9-B3D89A2C7177}.Release|Any CPU.Build.0 = Release|Any CPU
+		{215B09CC-EEA2-4F2E-85C0-70F897C1DABC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{215B09CC-EEA2-4F2E-85C0-70F897C1DABC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{215B09CC-EEA2-4F2E-85C0-70F897C1DABC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{215B09CC-EEA2-4F2E-85C0-70F897C1DABC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90B6A506-A788-4C71-9642-F378FEADE11D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90B6A506-A788-4C71-9642-F378FEADE11D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90B6A506-A788-4C71-9642-F378FEADE11D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90B6A506-A788-4C71-9642-F378FEADE11D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{005FE2D9-12C8-4CFE-B03B-A4F055244BD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{005FE2D9-12C8-4CFE-B03B-A4F055244BD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{005FE2D9-12C8-4CFE-B03B-A4F055244BD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{005FE2D9-12C8-4CFE-B03B-A4F055244BD0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		RESX_NeutralResourcesLanguage = ru-RU
+		SolutionGuid = {9E327AA7-AC2F-4460-AE14-8A60FDBECD10}
+		RESX_PrefixTranslations = True
+	EndGlobalSection
+EndGlobal

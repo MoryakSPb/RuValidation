@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Inn_Individual_InvalidCharacter" xml:space="preserve">
+    <value>Недопустимый символ в ИНН ФЛ</value>
+  </data>
+  <data name="Inn_Individual_InvalidHash" xml:space="preserve">
+    <value>Неверное контрольное число в ИНН ФЛ</value>
+  </data>
+  <data name="Inn_Individual_InvalidLength" xml:space="preserve">
+    <value>Неверная длина ИНН ФЛ</value>
+  </data>
+  <data name="Inn_Individual_InvalidValue" xml:space="preserve">
+    <value>Недопустимое значение ИНН ФЛ</value>
+  </data>
+  <data name="Inn_Legal_Foreign_InvalidRange" xml:space="preserve">
+    <value>Недопустимое значение ИНН иностранного ЮЛ</value>
+  </data>
+  <data name="Inn_Legal_InvalidCharacter" xml:space="preserve">
+    <value>Недопустимый символ в ИНН ЮЛ</value>
+  </data>
+  <data name="Inn_Legal_InvalidHash" xml:space="preserve">
+    <value>Неверное контрольное число в ИНН ЮЛ</value>
+  </data>
+  <data name="Inn_Legal_InvalidLength" xml:space="preserve">
+    <value>Неверная длина ИНН ЮЛ</value>
+  </data>
+  <data name="Inn_Legal_InvalidValue" xml:space="preserve">
+    <value>Недопустимое значение ИНН ЮЛ</value>
+  </data>
+  <data name="Inn_Legal_Local_InvalidRange" xml:space="preserve">
+    <value>Недопустимое значение ИНН местного ЮЛ</value>
+  </data>
+  <data name="Kpp_InvalidCharacter" xml:space="preserve">
+    <value>Недопустимый символ в КПП</value>
+  </data>
+  <data name="Kpp_InvalidLength" xml:space="preserve">
+    <value>Неверная длина КПП</value>
+  </data>
+  <data name="Kpp_InvalidValue" xml:space="preserve">
+    <value>Недопустимое значение КПП</value>
+  </data>
+  <data name="LocalPassportNumber_InvalidCharacter" xml:space="preserve">
+    <value>Недопустимый символ в нумерации паспорта гражданина РФ</value>
+  </data>
+  <data name="LocalPassportNumber_InvalidLength" xml:space="preserve">
+    <value>Неверная длина нумерации паспорта гражданина РФ</value>
+  </data>
+  <data name="LocalPassportNumber_InvalidValue" xml:space="preserve">
+    <value>Недопустимое значение нумерации паспорта гражданина РФ</value>
+  </data>
+  <data name="OgrnIndividual_InvalidCharacter" xml:space="preserve">
+    <value>Недопустимый символ в ОГРНИП</value>
+  </data>
+  <data name="OgrnIndividual_InvalidHash" xml:space="preserve">
+    <value>Неверная контрольная сумма в ОГРНИП</value>
+  </data>
+  <data name="OgrnIndividual_InvalidLength" xml:space="preserve">
+    <value>Неверное число знаков в ОГРНИП</value>
+  </data>
+  <data name="OgrnIndividual_InvalidValue" xml:space="preserve">
+    <value>Недопустимое значение ОГРНИП</value>
+  </data>
+  <data name="OgrnLegal_InvalidCharacter" xml:space="preserve">
+    <value>Недопустимый символ в ОГРН</value>
+  </data>
+  <data name="OgrnLegal_InvalidHash" xml:space="preserve">
+    <value>Неверная контрольная сумма в ОГРН</value>
+  </data>
+  <data name="OgrnLegal_InvalidLength" xml:space="preserve">
+    <value>Неверное число знаков в ОГРН</value>
+  </data>
+  <data name="OgrnLegal_InvalidValue" xml:space="preserve">
+    <value>Недопустимое значение ОГРН</value>
+  </data>
+  <data name="Ogrn_InvalidValue" xml:space="preserve">
+    <value>Недопустимое значение ОГРН(ИП)</value>
+  </data>
+  <data name="Snils_InvalidCharacter" xml:space="preserve">
+    <value>Недопустимый символ в СНИЛС</value>
+  </data>
+  <data name="Snils_InvalidDigitCount" xml:space="preserve">
+    <value>Неверное количество цифр в СНИЛС</value>
+  </data>
+  <data name="Snils_InvalidFormat" xml:space="preserve">
+    <value>Неверный формат СНИЛС</value>
+  </data>
+  <data name="Snils_InvalidHash" xml:space="preserve">
+    <value>Неверное контрольное число в СНИЛС</value>
+  </data>
+  <data name="Snils_InvalidLength" xml:space="preserve">
+    <value>Неверная длина СНИЛС</value>
+  </data>
+  <data name="Snils_InvalidValue" xml:space="preserve">
+    <value>Недопустимое значение СНИЛС</value>
+  </data>
+</root>
