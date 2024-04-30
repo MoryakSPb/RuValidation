@@ -5,11 +5,26 @@
       <ImplicitUsings>enable</ImplicitUsings>
       <Nullable>enable</Nullable>
       <LangVersion>latest</LangVersion>
-      <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+      <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
       <Title>Ru Validation</Title>
       <Authors>Aleksandr Erokhin</Authors>
       <NeutralLanguage>ru-RU</NeutralLanguage>
+      <Copyright>Copyright (C) 2024 Aleksandr Erokhin</Copyright>
+      <PackageProjectUrl>https://github.com/MoryakSPb/RuValidation</PackageProjectUrl>
+      <RepositoryUrl>https://github.com/MoryakSPb/RuValidation</RepositoryUrl>
+      <RepositoryType>git</RepositoryType>
+      <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+      <PackageLicenseExpression>LGPL-2.1-only</PackageLicenseExpression>
+      <PackageReadmeFile>README.md</PackageReadmeFile>
+	  <Version>0.1.0</Version>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <Compile Update="Properties\Resources.Designer.cs">
