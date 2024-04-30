@@ -9,12 +9,9 @@
     </PropertyGroup>
 
     <ItemGroup>
+        <PackageReference Include="RuValidation" Version="0.1.0" />
         <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="6.*" />
         <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="6.*" />
-    </ItemGroup>
-
-    <ItemGroup>
-        <ProjectReference Include="..\RuValidation\RuValidation.csproj" />
     </ItemGroup>
 
 </Project>
